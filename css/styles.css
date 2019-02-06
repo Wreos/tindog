@@ -152,18 +152,23 @@ position: relative;
   background-color: #ff4c68;
   font-style: 'Montserrat-Black';
   color:white;
-  padding-top: 50px;
+  padding: 7% 15%;
+}
+
+.cta-head {
+  font-size:3.5rem;
+  line-height: 1.5;
 }
 
 #footer {
   background-color: #fff;
   text-align: center;
-  margin: 70px auto;
+  margin: 7% 15%;
 
 }
 
 
-/*  медиазапросы */
+/*  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 @media (max-width:1028px) {
 
 #title {
@@ -174,6 +179,11 @@ position: relative;
 #rotatephone {
   position:static;
   transform: rotate(0);
+}
+
+
+.social-icon {
+  margin: 20px 10px;
 }
 
 }
